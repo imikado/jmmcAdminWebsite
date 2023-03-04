@@ -37,7 +37,7 @@ try {
 
     $config->setSectionParam('path', 'root', ROOT_PATH);
 
-    define('ROOT_STATIC_PATH', __DIR__ . '/../../' . $config->getSectionParam('path', 'static.project'));
+    define('ROOT_DATA_PATH', __DIR__ . '/../../Data/');
 
     $application = new Application([
         Application::CONFIG_MANAGER => $config,
