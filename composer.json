@@ -1,0 +1,22 @@
+{
+    "repositories": [
+        {
+            "packagist.org": false,
+            "type": "path",
+            "url": "/home/mika/www/github/packages/*/*/",
+            "options": {
+                "symlink": false
+            }
+        }
+    ],
+    "name": "mika/marchedecoeuilly-admin",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "My\\": "src/"
+        }
+    },
+    "require": {
+        "dupot/static-management-framework": "dev-main"
+    }
+}

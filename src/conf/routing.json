@@ -1,0 +1,82 @@
+[
+    {
+        "pattern": "#/news.html#",
+        "class": "My\\Infrastructure\\Pages\\Content\\News\\NewsPage",
+        "method": "list"
+    },
+    {
+        "pattern": "#/news_add.html#",
+        "class": "My\\Infrastructure\\Pages\\Content\\News\\NewsPage",
+        "method": "add"
+    },
+    {
+        "pattern": "#/news_edit_([0-9]*).html#",
+        "class": "My\\Infrastructure\\Pages\\Content\\News\\NewsPage",
+        "method": "edit"
+    },
+    {
+        "pattern": "#/news_delete_([0-9]*).html#",
+        "class": "My\\Infrastructure\\Pages\\Content\\News\\NewsPage",
+        "method": "delete"
+    },
+    {
+        "pattern": "#/events.html#",
+        "class": "My\\Infrastructure\\Pages\\Content\\Events\\EventsPage",
+        "method": "list"
+    },
+    {
+        "pattern": "#/events_add.html#",
+        "class": "My\\Infrastructure\\Pages\\Content\\Events\\EventsPage",
+        "method": "add"
+    },
+    {
+        "pattern": "#/events_edit_([0-9]*).html#",
+        "class": "My\\Infrastructure\\Pages\\Content\\Events\\EventsPage",
+        "method": "edit"
+    },
+    {
+        "pattern": "#/sellers.html#",
+        "class": "My\\Infrastructure\\Pages\\Content\\Sellers\\SellersPage",
+        "method": "list"
+    },
+    {
+        "pattern": "#/sellers_add.html#",
+        "class": "My\\Infrastructure\\Pages\\Content\\Sellers\\SellersPage",
+        "method": "add"
+    },
+    {
+        "pattern": "#/sellers_edit_([0-9]*).html#",
+        "class": "My\\Infrastructure\\Pages\\Content\\Sellers\\SellersPage",
+        "method": "edit"
+    },
+    {
+        "pattern": "#/exhibitors.html#",
+        "class": "My\\Infrastructure\\Pages\\Content\\Exhibitors\\ExhibitorsPage",
+        "method": "list"
+    },
+    {
+        "pattern": "#/exhibitors_add.html#",
+        "class": "My\\Infrastructure\\Pages\\Content\\Exhibitors\\ExhibitorsPage",
+        "method": "add"
+    },
+    {
+        "pattern": "#/exhibitors_edit_([0-9]*).html#",
+        "class": "My\\Infrastructure\\Pages\\Content\\Exhibitors\\ExhibitorsPage",
+        "method": "edit"
+    },
+    {
+        "pattern": "#/publication.html#",
+        "class": "My\\Infrastructure\\Pages\\Content\\Publication\\PublicationPage",
+        "method": "index"
+    },
+    {
+        "pattern": "#/image_resize.html#",
+        "class": "My\\Infrastructure\\Pages\\Content\\Tools\\ImagePage",
+        "method": "index"
+    },
+    {
+        "pattern": "#/#",
+        "class": "My\\Infrastructure\\Pages\\Auth\\AuthPage",
+        "method": "login"
+    }
+]

@@ -1,0 +1,5 @@
+vendor/
+vhosts/
+launch.sh
+syncFmk.sh
+docker-compose.yml

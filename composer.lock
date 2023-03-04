@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "af4e1998a2ebb5da61cdc2ecc962d4c1",
+    "packages": [
+        {
+            "name": "dupot/static-management-framework",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "/home/mika/www/github/packages/dupot/static-management-framework",
+                "reference": "797084846344d10afd45fb8df680b95df53c5f98"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dupot\\StaticManagementFramework\\": "src/"
+                }
+            },
+            "license": [
+                "LGPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Bertocchi",
+                    "email": "imikado@gmail.com",
+                    "homepage": "https://www.dupot.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "framework to manage static website",
+            "homepage": "https://www.dupot.org",
+            "transport-options": {
+                "symlink": false,
+                "relative": false
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "dupot/static-management-framework": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
