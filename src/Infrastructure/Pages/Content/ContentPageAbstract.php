@@ -8,6 +8,7 @@ use Dupot\StaticManagementFramework\Render\View;
 use My\Infrastructure\Pages\Content\events\EventsPage;
 use My\Infrastructure\Pages\Content\Exhibitors\ExhibitorsPage;
 use My\Infrastructure\Pages\Content\News\NewsPage;
+use My\Infrastructure\Pages\Content\OtherPages\OtherPagesPage;
 use My\Infrastructure\Pages\Content\Publication\PublicationPage;
 use My\Infrastructure\Pages\Content\Sellers\SellersPage;
 use My\Infrastructure\Pages\Content\Tools\ImagePage;
@@ -62,6 +63,13 @@ class ContentPageAbstract extends PageAbstract
                 'label' => 'Exposants',
                 'link' => 'exhibitors.html',
                 'pageSelected' => ExhibitorsPage::class
+
+            ],
+
+            (object)[
+                'label' => 'Autres pages',
+                'link' => 'otherPages.html',
+                'pageSelected' => OtherPagesPage::class
 
             ],
 

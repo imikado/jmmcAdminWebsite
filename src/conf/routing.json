@@ -65,6 +65,16 @@
         "method": "edit"
     },
     {
+        "pattern": "#/otherPages.html#",
+        "class": "My\\Infrastructure\\Pages\\Content\\OtherPages\\OtherPagesPage",
+        "method": "list"
+    },
+    {
+        "pattern": "#/otherPages_edit_([0-9]*).html#",
+        "class": "My\\Infrastructure\\Pages\\Content\\OtherPages\\OtherPagesPage",
+        "method": "edit"
+    },
+    {
         "pattern": "#/publication.html#",
         "class": "My\\Infrastructure\\Pages\\Content\\Publication\\PublicationPage",
         "method": "index"
